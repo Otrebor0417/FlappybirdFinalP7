@@ -339,7 +339,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213152779}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -700,7 +700,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717682071}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1257,6 +1257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1781633358}
   - component: {fileID: 1781633357}
+  - component: {fileID: 1781633359}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1295,6 +1296,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1781633359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781633356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f2fdc49cb32024fabf691032ac694f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columnPoolSize: 5
+  columnPrefab: {fileID: 2167682863564104282, guid: f7c738dab80dc274286971c73a9c1782, type: 3}
+  spawnRate: 4
+  columnMin: -1
+  columnMax: 2
 --- !u!1 &1909490370
 GameObject:
   m_ObjectHideFlags: 0
